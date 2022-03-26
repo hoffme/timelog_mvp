@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: var(--surface-background-color);
+  box-shadow: 1px 1px 3px var(--surface-shadow-color);
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  box-sizing: border-box;
+
+  > * { margin: 0.25rem }
+
+  .searchButton { flex: 1 }
+}

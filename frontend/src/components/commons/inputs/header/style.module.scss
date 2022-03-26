@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: row;
+
+    .title {
+        flex: 1;
+        color: var(--surface-text-tertiary-color);
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+
+    .check {}
+
+    .refresh {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+    }
+
+    &.active {
+        .title {
+            color: var(--surface-text-primary-color);
+        }
+    }
+}

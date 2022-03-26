@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  height: 100%;
+  box-sizing: border-box;
+
+  .filter, .results {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  .filter {
+    margin-bottom: 0.5rem;
+  }
+
+  .results {
+    flex: 1;
+  }
+
+}

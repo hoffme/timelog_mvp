@@ -1,0 +1,10 @@
+.content {
+  display: flex;
+  flex-direction: row;
+
+  input {
+    width: auto;
+    border: none;
+    border-bottom: 1px solid var(--surface-border-color);
+  }
+}

@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--surface-background-color);
+  box-shadow: 1px 1px 3px var(--surface-shadow-color);
+  border-radius: 0.5rem;
+
+  .rows {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .header, .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem;
+    font-size: 0.8em;
+
+    .id { flex: 1 }
+    .start { flex: 1 }
+    .end { flex: 1 }
+    .description { flex: 2 }
+  }
+
+  .header {
+    border-bottom: 1px solid var(--surface-border-color);
+    font-weight: bold;
+    text-align: center;
+    color: var(--surface-text-tertiary-color);
+  }
+
+  .notFound {
+    text-align: center;
+    padding: 0.5rem;
+    color: var(--surface-text-tertiary-color);
+    font-size: 0.8em;
+  }
+}

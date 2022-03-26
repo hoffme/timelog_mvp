@@ -1,0 +1,15 @@
+.container {
+  .content {
+    .input {
+      box-sizing: border-box;
+      width: auto;
+      border: none;
+      border-bottom: 1px solid var(--surface-border-color);
+      background-color: var(--surface-background-color);
+      padding: 0.5rem;
+      color: var(--surface-text-secondary-color);
+
+      &:focus { outline: none }
+    }
+  }
+}

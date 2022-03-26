@@ -1,0 +1,17 @@
+.container {
+  background-color: var(--surface-background-color);
+  box-shadow: 1px 1px 3px var(--surface-shadow-color);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+
+  .title {
+    text-align: center;
+  }
+
+  > * {
+    margin: 0.5rem;
+  }
+}
